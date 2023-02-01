@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&family=Rubik+Dirt&family=Silkscreen&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.sidebar{
+	background-color:rgb(168, 165, 165) ;
+
+	/*width: 120px;*/
+	font-family: 'Rubik Dirt', cursive;
+	height: 100vh;
+
+
+}
+.sidebar:hover{
+ background-color: orange;
+}
+.sidebar li a:hover{
+ color:white;
+}
+
+.sidebar nav{
+	padding:55px ;
+	/*background-color:rgb(168, 165, 165) ;*/
+}
+
+.sidebar nav li{
+	list-style: none;
+	font-size: 23px;
+	padding-top: 40px ;
+	
+}
+.sidebar nav li a{
+	text-decoration: none;
+	color: black;
+	margin: 12px;
+	
+}
+.main{
+/*	background-color: yellow;
+*/	width: 90vw;
+
+}
+.container{
+	display: flex;
+}
+.infocontainer{
+	/*background-color: lightgreen;*/
+	height:25vw ;
+	width:66vw ;
+	margin: auto ;
+	margin-top: 120px;
+	display: flex;
+	justify-content: space-around;
+}
+.newdiv img{
+	width: 380px;
+	height: 350px;
+	justify-content: center;
+	
+}
+.divinfo{
+	/*display: flex;*/
+}
+.hello{
+ font-size: 60px;
+ font-family:  'Silkscreen', cursive;;
+}
+.name{
+  font-size: 40px;
+  font-weight: bold;
+}
+.about{
+font-size: 30px;
+margin: 10px;
+}
+.aboutmore{
+	font-size: 20px;
+}
+button{
+	font-size: 20px;
+	padding: 9px 10px;
+	border-radius: 20px;
+	background-color: dodgerblue;
+	color: white;
+	margin: 0 3px;
+	cursor: pointer;
+
+}
+.button button:hover{
+color: dodgerblue;
+background-color: white;
+}
+
+#myForm{
+	text-align: center;
+	padding-top: 90px;
+
+}
+.pclass{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+}
+  #h5id{
+	color: red;
+}
+#inputid{
+	margin: 10px;
+	width: 250px;
+	border-radius: 10px;
+}
+#numberid{
+	margin: 10px;
+	border-radius: 10px;
+}
+ fieldset{
+ 	width: 500px;
+margin: 0 auto;
+margin-top: 50px;
+ }
+ #radioid{
+ 	cursor: pointer;
+ }
+ #submitid{
+ 	font-size: 20px;
+ 	padding: 5px;
+ 	border-radius: 20px;
+}
+ #submitid:hover{
+ 	color: white;
+ 	background-color: dodgerblue;
+ 	cursor: pointer;
+ }
+ .reuse_button{
+ 	padding: 5px;
+ 	margin-left: 10px;
+ }
+ .reuse_button:hover{
+ 	color: black;
+ 	background-color: white;
+ }
+ .blogmainpart1{
+ 	margin-left: 40px;
+ 	margin-top: 40px;
+ }
